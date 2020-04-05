@@ -1,0 +1,21 @@
+{
+  "name": "babeltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build": "npx rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "eslint": "^6.8.0",
+    "rollup": "^2.3.3",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
